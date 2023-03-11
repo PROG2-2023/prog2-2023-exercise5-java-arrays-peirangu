@@ -66,6 +66,7 @@ public class FlightBookingTest
         LocalDate returningOn = LocalDate.parse(returnD);
 
         fb.setDepartureDate(departingOn);
+        
         fb.setReturnDate(returningOn);
 
         fb.setDepartingTicketPrice(0, 3);
